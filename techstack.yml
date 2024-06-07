@@ -1,0 +1,2281 @@
+repo_name: minhnguyen311/oss-fuzz
+report_id: fca75828f1eab43209da93d69a0aa164
+version: 0.1
+repo_type: Public
+timestamp: '2024-06-07T13:37:55+00:00'
+requested_by: niccokunzmann
+provider: github
+branch: master
+detected_tools_count: 175
+tools:
+- name: C lang
+  description: One of the most widely used programming languages of all time
+  website_url: http://en.wikipedia.org/wiki/C_(programming_language)
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz
+  detection_source: Repo Metadata
+- name: C++
+  description: Has imperative, object-oriented and generic programming features, while
+    also providing the facilities for low level memory manipulation
+  website_url: http://www.cplusplus.com/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1049/cplusplus.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz
+  detection_source: Repo Metadata
+- name: Golang
+  description: An open source programming language that makes it easy to build simple,
+    reliable, and efficient software
+  website_url: http://golang.org/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1005/O6AczwfV_400x400.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz
+  detection_source: Repo Metadata
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz
+  detection_source: Repo Metadata
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz
+  detection_source: Repo Metadata
+- name: Ruby
+  description: A dynamic, interpreted, open source programming language with a focus
+    on simplicity and productivity
+  website_url: https://www.ruby-lang.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz
+  detection_source: Repo Metadata
+- name: Rust
+  description: A safe, concurrent, practical language
+  website_url: http://www.rust-lang.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1070/v7txhrjp9pdqrkdtxxp0.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz
+  detection_source: Repo Metadata
+- name: SQL
+  description: It is a domain-specific language used in programming
+  website_url: https://en.wikipedia.org/wiki/SQL
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/projects/mysql-server/targets/init.sql
+  detection_source: projects/mysql-server/targets/init.sql
+  last_updated_by: Catena cyber
+  last_updated_on: 2019-10-16 15:25:11.000000000 Z
+- name: Swift
+  description: An innovative new programming language for Cocoa and Cocoa Touch.
+  website_url: https://developer.apple.com/swift/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1009/tuHsaI2U.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz
+  detection_source: Repo Metadata
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz
+  detection_source: Repo Metadata
+- name: ".NET"
+  description: A free, cross-platform, open source developer platform for building
+    many different types of applications
+  website_url: http://www.microsoft.com/net/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/tools/vscode-extension/package.json
+  detection_source: tools/vscode-extension/package.json
+  last_updated_by: DavidKorczynski
+  last_updated_on: 2023-08-28 09:51:45.000000000 Z
+- name: Avro
+  description: A data serialization framework
+  website_url: https://avro.apache.org/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Serialization Frameworks
+  image_url: https://img.stackshare.io/service/4265/avro.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/projects/avro/project-parent/fuzz-targets/pom.xml
+  detection_source: projects/avro/project-parent/fuzz-targets/pom.xml
+  last_updated_by: Henry Lin
+  last_updated_on: 2023-06-07 00:50:54.000000000 Z
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/projects/typescript-example/package.json
+  detection_source: projects/typescript-example/package.json
+  last_updated_by: Khaled Yakdan
+  last_updated_on: 2023-01-31 16:31:54.000000000 Z
+- name: Polymer
+  description: A new library built on top of Web Components, designed to leverage
+    the evolving web platform on modern browsers
+  website_url: https://www.polymer-project.org
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Front-End Frameworks
+  image_url: https://img.stackshare.io/service/1934/R8YcGKHV.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/infra/build/status/bower.json
+  detection_source: infra/build/status/bower.json
+  last_updated_by: Ammar Askar
+  last_updated_on: 2019-08-20 23:40:56.000000000 Z
+- name: Protobuf
+  description: Google's data interchange format
+  website_url: https://developers.google.com/protocol-buffers/
+  version: 3.20.2
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Serialization Frameworks
+  image_url: https://img.stackshare.io/service/4393/ma2jqJKH_400x400.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/infra/build/functions/requirements.txt
+  detection_source: infra/build/functions/requirements.txt
+  last_updated_by: jonathanmetzman
+  last_updated_on: 2022-12-05 14:44:31.000000000 Z
+- name: Spring Cloud
+  description: Spring helps development teams everywhere build simple, portable,fast
+    and flexible JVM-based systems and applications.
+  website_url: https://spring.io/projects/spring-cloud
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/5494/default_b403ef08976083aea6d4caf5a4f19f3325c751e5.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/projects/spring-cloud-config/pom.xml
+  detection_source: projects/spring-cloud-config/pom.xml
+  last_updated_by: aschaich
+  last_updated_on: 2022-10-20 19:05:25.000000000 Z
+- name: guava
+  description: Google Core Libraries for Java 6+
+  website_url: https://github.com/google/guava
+  version: '31.1'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Java Tools
+  image_url: https://img.stackshare.io/service/2970/wBjKn0ol.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/projects/opencensus-java/project-parent/fuzz-targets/pom.xml
+  detection_source: projects/opencensus-java/project-parent/fuzz-targets/pom.xml
+  last_updated_by: Henry Lin
+  last_updated_on: 2023-03-30 05:16:47.000000000 Z
+- name: Google Cloud Datastore
+  description: A Fully Managed NoSQL Data Storage Service
+  website_url: https://cloud.google.com/datastore/
+  open_source: false
+  hosted_saas: true
+  category: Data Stores
+  sub_category: NoSQL Database as a Service
+  image_url: https://img.stackshare.io/service/2754/google_cloud_datastore.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/infra/build/functions/requirements.txt
+  detection_source: infra/build/functions/requirements.txt
+  last_updated_by: Navidem
+  last_updated_on: 2022-08-22 23:54:35.000000000 Z
+- name: Google Cloud Storage
+  description: Durable and highly available object storage service
+  website_url: https://cloud.google.com/products/cloud-storage/
+  open_source: false
+  hosted_saas: true
+  category: Data Stores
+  sub_category: Cloud Storage
+  image_url: https://img.stackshare.io/service/694/Cloud_Storage.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/infra/build/functions/requirements.txt
+  detection_source: infra/build/functions/requirements.txt
+  last_updated_by: Navidem
+  last_updated_on: 2022-08-22 23:54:35.000000000 Z
+- name: HSQLDB
+  description: Leading SQL relational database software written in Java
+  website_url: http://hsqldb.org
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/6958/yQ4763oZ_400x400.jpg
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/projects/calcite/project-parent/fuzz-targets/pom.xml
+  detection_source: projects/calcite/project-parent/fuzz-targets/pom.xml
+  last_updated_by: Henry Lin
+  last_updated_on: 2023-06-14 19:18:02.000000000 Z
+- name: Hadoop
+  description: Open-source software for reliable, scalable, distributed computing
+  website_url: http://hadoop.apache.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1044/elephant_rgb_sq.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/projects/avro/project-parent/fuzz-targets/pom.xml
+  detection_source: projects/avro/project-parent/fuzz-targets/pom.xml
+  last_updated_by: Henry Lin
+  last_updated_on: 2023-06-07 00:50:54.000000000 Z
+- name: Hibernate
+  description: Idiomatic persistence for Java and relational databases.
+  website_url: http://hibernate.org/
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Object Relational Mapper (ORM)
+  image_url: https://img.stackshare.io/service/1756/1uNl_IZX.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/projects/hibernate-orm/hibernate.xml
+  detection_source: projects/hibernate-orm/hibernate.xml
+  last_updated_by: aschaich
+  last_updated_on: 2022-09-01 16:29:46.000000000 Z
+- name: Apache Maven
+  description: Apache build manager for Java projects.
+  website_url: http://maven.apache.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Java Build Tools
+  image_url: https://img.stackshare.io/package_manager/977/default_9833f2ef0bbc2a946b4cc5e9307264033361076b.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/projects/apache-axis2/Dockerfile
+  detection_source: projects/apache-axis2/Dockerfile
+  last_updated_by: DavidKorczynski
+  last_updated_on: 2023-03-20 15:28:00.000000000 Z
+- name: CMake
+  description: An open-source system that manages the build process
+  website_url: http://www.cmake.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Java Build Tools
+  image_url: https://img.stackshare.io/service/2424/0UlUI_y1_400x400.jpg
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz
+  detection_source: Repo Metadata
+- name: Closure Compiler
+  description: A JavaScript checker and optimizer
+  website_url: https://developers.google.com/closure/compiler/?hl=en
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JavaScript Optimizers
+  image_url: https://img.stackshare.io/service/3794/wBjKn0ol.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/projects/closure-compiler/project-parent/fuzz-targets/pom.xml
+  detection_source: projects/closure-compiler/project-parent/fuzz-targets/pom.xml
+  last_updated_by: Henry Lin
+  last_updated_on: 2023-08-09 23:51:21.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz
+  detection_source: Repo Metadata
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/tools/vscode-extension/package.json
+  detection_source: tools/vscode-extension/package.json
+  last_updated_by: DavidKorczynski
+  last_updated_on: 2023-08-28 09:51:45.000000000 Z
+- name: Eclipse
+  description: IDE for Java EE Developers
+  website_url: https://www.eclipse.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Integrated Development Environment
+  image_url: https://img.stackshare.io/service/1446/8cyY6D_m.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/projects/struts/struts2-fuzzer/fuzzer/pom.xml
+  detection_source: projects/struts/struts2-fuzzer/fuzzer/pom.xml
+  last_updated_by: Lukasz Lenart
+  last_updated_on: 2023-07-04 21:09:19.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/.github/workflows/cflite_pr.yml
+  detection_source: ".github/workflows/cflite_pr.yml"
+  last_updated_by: jonathanmetzman
+  last_updated_on: 2022-11-30 20:37:36.000000000 Z
+- name: Google Cloud Build
+  description: Continuously build, test, and deploy.
+  website_url: https://cloud.google.com/cloud-build
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Deployment
+  image_url: https://img.stackshare.io/service/9309/PoHJY3K8_400x400.jpg
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/infra/build/build_status/cloudbuild.yaml
+  detection_source: infra/build/build_status/cloudbuild.yaml
+  last_updated_by: Navidem
+  last_updated_on: 2021-11-17 02:47:39.000000000 Z
+- name: JBoss
+  description: An open source Java EE-based application server
+  website_url: https://developers.redhat.com/products/eap
+  open_source: false
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Web Servers
+  image_url: https://img.stackshare.io/service/2188/unnamed.jpg
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/projects/jboss-logging/project-parent/fuzz-targets/pom.xml
+  detection_source: projects/jboss-logging/project-parent/fuzz-targets/pom.xml
+  last_updated_by: wojtekCodeInt
+  last_updated_on: 2023-02-19 22:46:58.000000000 Z
+- name: JUnit
+  description: A programmer-oriented testing framework for Java
+  website_url: http://junit.org/
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2020/874086.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/projects/apache-commons-fileupload/project-parent/fuzz-targets/pom.xml
+  detection_source: projects/apache-commons-fileupload/project-parent/fuzz-targets/pom.xml
+  last_updated_by: Roman Wagner
+  last_updated_on: 2023-03-02 19:08:03.000000000 Z
+- name: Julia
+  description: A high-level, high-performance dynamic programming language for technical
+    computing
+  website_url: http://pkg.julialang.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package_manager/3914/default_a30825f60d1159a8bca0d7d45c4988f63eeb2b0f.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/projects/jsonschema/Dockerfile
+  detection_source: projects/jsonschema/Dockerfile
+  last_updated_by: DavidKorczynski
+  last_updated_on: 2021-03-05 15:33:34.000000000 Z
+- name: Log4j
+  description: A Java-based logging utility
+  website_url: https://logging.apache.org/log4j/2.x/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Logging Tools
+  image_url: https://img.stackshare.io/service/2804/Coralogix-log4j-integration.jpg
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/projects/apache-poi/pom.xml
+  detection_source: projects/apache-poi/pom.xml
+  last_updated_by: Dominik Stadler
+  last_updated_on: 2023-08-22 20:21:22.000000000 Z
+- name: Logback
+  description: A logging framework for Java applications
+  website_url: https://logback.qos.ch/
+  open_source: false
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Log Management
+  image_url: https://img.stackshare.io/service/2923/05518ecaa42841e834421e9d6987b04f_400x400.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/projects/logback/logback.xml
+  detection_source: projects/logback/logback.xml
+  last_updated_by: psy
+  last_updated_on: 2022-04-14 05:02:57.000000000 Z
+- name: Mocha
+  description: Simple, flexible, fun javascript test framework for node.js &amp; the
+    browser
+  website_url: http://mochajs.org/
+  version: 10.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/832/mocha.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/tools/vscode-extension/package-lock.json
+  detection_source: tools/vscode-extension/package.json
+  last_updated_by: DavidKorczynski
+  last_updated_on: 2023-08-28 09:51:45.000000000 Z
+- name: NuGet
+  description: The package manager for .NET
+  website_url: https://www.nuget.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/tools/vscode-extension/package.json
+  detection_source: tools/vscode-extension/package.json
+  last_updated_by: DavidKorczynski
+  last_updated_on: 2023-08-28 09:51:45.000000000 Z
+- name: OpenCensus
+  description: A single distribution of libraries that automatically collect traces
+    and send them to any backend
+  website_url: https://opencensus.io/
+  open_source: false
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Performance Monitoring
+  image_url: https://img.stackshare.io/service/10794/EpBd2Xrw_400x400.jpg
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/projects/opencensus-java/project-parent/fuzz-targets/pom.xml
+  detection_source: projects/opencensus-java/project-parent/fuzz-targets/pom.xml
+  last_updated_by: Henry Lin
+  last_updated_on: 2023-04-11 04:49:14.000000000 Z
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/infra/ci/requirements.txt
+  detection_source: infra/ci/requirements.txt
+  last_updated_by: jonathanmetzman
+  last_updated_on: 2020-05-28 17:14:57.000000000 Z
+- name: Pylint
+  description: Source-code, bug and quality checker for the Python programming language
+  website_url: https://www.pylint.org/
+  version: 2.5.3
+  license: GPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/4837/py.jpg
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/infra/ci/requirements.txt
+  detection_source: infra/ci/requirements.txt
+  last_updated_by: Abhishek Arya
+  last_updated_on: 2020-07-15 16:46:24.000000000 Z
+- name: RubyGems
+  description: Easily download, install, and use ruby software packages on your system
+  website_url: https://rubygems.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/docs/Gemfile
+  detection_source: docs/Gemfile
+  last_updated_by: Abhishek Arya
+  last_updated_on: 2019-08-06 20:29:19.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/tools/vscode-extension/package.json
+  detection_source: tools/vscode-extension/package.json
+  last_updated_by: DavidKorczynski
+  last_updated_on: 2023-08-28 09:51:45.000000000 Z
+- name: pytest
+  description: A full-featured Python testing tool to help you write better programs
+  website_url: http://pytest.org/latest/
+  version: 7.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/4586/Lu99Qe0Z_400x400.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/infra/ci/requirements.txt
+  detection_source: infra/ci/requirements.txt
+  last_updated_by: jonathanmetzman
+  last_updated_on: 2022-07-07 15:33:10.000000000 Z
+- name: Here Maps
+  description: An app that makes city navigation effortless whether you need a taxi,
+    public transportation or drive on your own
+  website_url: http://here.com/
+  open_source: false
+  hosted_saas: true
+  category: Application Utilities
+  sub_category: Mapping APIs
+  image_url: https://img.stackshare.io/service/5500/FyXhxpvJ_400x400.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/infra/build/fuzz-introspector-webapp/Dockerfile
+  detection_source: infra/build/fuzz-introspector-webapp/Dockerfile
+  last_updated_by: DavidKorczynski
+  last_updated_on: 2023-05-05 15:24:42.000000000 Z
+- name: Base
+  description: All-in-one sales and customer management platform
+  website_url: https://getbase.com/
+  open_source: false
+  hosted_saas: false
+  category: Support, Sales, and Marketing
+  sub_category: CRM
+  image_url: https://img.stackshare.io/service/3633/ZBMmmvP1_400x400.jpg
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/infra/base-images/base-image/Dockerfile
+  detection_source: infra/base-images/base-image/Dockerfile
+  last_updated_by: Mike Aizatsky
+  last_updated_on: 2016-07-20 21:58:10.000000000 Z
+- name: CocoaPods
+  description: A dependency manager for Swift and Objective-C Cocoa projects
+  website_url: https://cocoapods.org/
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: CocoaPods Packages
+  image_url: https://img.stackshare.io/service/2426/e1cbdef9d4b11484049a033886578e54_400x400.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/projects/freeimage/Dockerfile
+  detection_source: projects/freeimage/Dockerfile
+  last_updated_by: Markus Kusano
+  last_updated_on: 2018-12-19 15:56:47.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz
+  detection_source: Repo Metadata
+- name: Ubuntu
+  description: The leading OS for PC, tablet, phone and cloud
+  website_url: http://www.ubuntu.com/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Operating Systems
+  image_url: https://img.stackshare.io/service/3511/cof_orange_hex.jpg
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/projects/alembic/Dockerfile
+  detection_source: projects/alembic/Dockerfile
+  last_updated_by: Ravi Jotwani
+  last_updated_on: 2020-08-11 23:43:16.000000000 Z
+- name: com.google.guava:guava
+  description: Guava is a suite of core and expanded libraries that include utility
+    classes
+  version: '31.1'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/projects/opencensus-java/project-parent/fuzz-targets/pom.xml
+  detection_source: projects/opencensus-java/project-parent/fuzz-targets/pom.xml
+  last_updated_by: Henry Lin
+  last_updated_on: 2023-03-30 05:16:47.000000000 Z
+  vulnerabilities:
+  - name: Guava vulnerable to insecure use of temporary directory
+    cve_id: CVE-2023-2976
+    cve_url: https://github.com/advisories/GHSA-7g45-4rm6-3mm3
+    detected_date: Jun 15
+    severity: moderate
+    first_patched: 32.0.0-android
+  - name: Information Disclosure in Guava
+    cve_id: CVE-2020-8908
+    cve_url: https://github.com/advisories/GHSA-5mg8-w23w-74h3
+    detected_date: Aug 22
+    severity: low
+    first_patched: 32.0.0-android
+- name: com.jayway.jsonpath:json-path
+  description: Java port of Stefan Goessner JsonPath
+  version: 2.7.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/projects/jsonpath/pom.xml
+  detection_source: projects/jsonpath/pom.xml
+  last_updated_by: aschaich
+  last_updated_on: 2022-12-01 18:27:21.000000000 Z
+  vulnerabilities:
+  - name: json-path Out-of-bounds Write vulnerability
+    cve_id: CVE-2023-51074
+    cve_url: https://github.com/advisories/GHSA-pfh2-hfmq-phg5
+    detected_date: Jan 18
+    severity: moderate
+    first_patched: 2.9.0
+- name: com.nimbusds:nimbus-jose-jwt
+  description: Java library for Javascript Object Signing and Encryption
+  version: 9.30.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/projects/nimbus-jwt/nimbus-jwt-fuzzer/pom.xml
+  detection_source: projects/nimbus-jwt/nimbus-jwt-fuzzer/pom.xml
+  last_updated_by: aschaich
+  last_updated_on: 2023-02-19 23:03:55.000000000 Z
+  vulnerabilities:
+  - name: Denial of Service in Connect2id Nimbus JOSE+JWT
+    cve_id: CVE-2023-52428
+    cve_url: https://github.com/advisories/GHSA-gvpg-vgmx-xg6w
+    detected_date: Mar 16
+    severity: moderate
+    first_patched: 9.37.2
+- name: org.eclipse.platform:org.eclipse.core.runtime
+  description: Core Runtime
+  version: 3.26.100
+  license: EPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/projects/eclipse-equinox/equinox-fuzzer/pom.xml
+  detection_source: projects/eclipse-equinox/equinox-fuzzer/pom.xml
+  last_updated_by: aschaich
+  last_updated_on: 2023-02-13 16:09:31.000000000 Z
+  vulnerabilities:
+  - name: Eclipse IDE XXE in eclipse.platform
+    cve_id: CVE-2023-4218
+    cve_url: https://github.com/advisories/GHSA-j24h-xcpc-9jw8
+    detected_date: Mar 6
+    severity: moderate
+    first_patched: 3.29.0
+- name: cglib:cglib
+  description: Cglib is a powerful
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/projects/cglib/pom.xml
+  detection_source: projects/cglib/pom.xml
+  last_updated_by: aschaich
+  last_updated_on: 2022-09-07 16:53:13.000000000 Z
+- name: com.auth0:java-jwt
+  description: Java implementation of JSON Web Token
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/projects/java-jwt/project-parent/fuzz-targets/pom.xml
+  detection_source: projects/java-jwt/project-parent/fuzz-targets/pom.xml
+  last_updated_by: Henry Lin
+  last_updated_on: 2023-04-21 04:29:08.000000000 Z
+- name: com.esotericsoftware.yamlbeans:yamlbeans
+  description: Java object graphs, to and from YAML
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/projects/yamlbeans/project-parent/fuzz-targets/pom.xml
+  detection_source: projects/yamlbeans/project-parent/fuzz-targets/pom.xml
+  last_updated_by: Henry Lin
+  last_updated_on: 2023-04-26 23:31:01.000000000 Z
+- name: com.github.jsqlparser:jsqlparser
+  description: JSqlParser parses an SQL statement and translate it into a hierarchy
+    of Java classes
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/projects/jsqlparser/project-parent/fuzz-targets/pom.xml
+  detection_source: projects/jsqlparser/project-parent/fuzz-targets/pom.xml
+  last_updated_by: Henry Lin
+  last_updated_on: 2023-04-25 23:49:07.000000000 Z
+- name: com.google.api-client:google-api-client
+  description: Google APIs Client Library for Java
+  version: 2.2.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/projects/g-auth-library-java/project-parent/fuzz-targets/pom.xml
+  detection_source: projects/g-auth-library-java/project-parent/fuzz-targets/pom.xml
+  last_updated_by: Henry Lin
+  last_updated_on: 2023-06-19 23:01:48.000000000 Z
+- name: com.google.auth:google-auth-library-credentials
+  description: Open source Auth client library for Java
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/projects/g-auth-library-java/project-parent/fuzz-targets/pom.xml
+  detection_source: projects/g-auth-library-java/project-parent/fuzz-targets/pom.xml
+  last_updated_by: Henry Lin
+  last_updated_on: 2023-06-19 23:01:48.000000000 Z
+- name: com.google.auth:google-auth-library-oauth2-http
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/projects/g-auth-library-java/project-parent/fuzz-targets/pom.xml
+  detection_source: projects/g-auth-library-java/project-parent/fuzz-targets/pom.xml
+  last_updated_by: Henry Lin
+  last_updated_on: 2023-06-19 23:01:48.000000000 Z
+- name: com.google.cloud:google-cloud-storage
+  description: Java idiomatic client for Google Cloud Storage
+  version: 1.113.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/projects/g-auth-library-java/project-parent/fuzz-targets/pom.xml
+  detection_source: projects/g-auth-library-java/project-parent/fuzz-targets/pom.xml
+  last_updated_by: Henry Lin
+  last_updated_on: 2023-06-19 23:01:48.000000000 Z
+- name: com.google.code.gson:gson
+  description: Gson JSON library
+  version: 2.10.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/projects/json-flattener/project-parent/fuzz-targets/pom.xml
+  detection_source: projects/json-flattener/project-parent/fuzz-targets/pom.xml
+  last_updated_by: Henry Lin
+  last_updated_on: 2023-05-28 01:23:52.000000000 Z
+- name: com.google.http-client:google-http-client
+  description: Google HTTP Client Library for Java
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/projects/g-http-java-client/project-parent/fuzz-targets/pom.xml
+  detection_source: projects/g-http-java-client/project-parent/fuzz-targets/pom.xml
+  last_updated_by: Henry Lin
+  last_updated_on: 2023-03-21 17:36:32.000000000 Z
+- name: com.google.http-client:google-http-client-gson
+  description: Google HTTP Client Library for Java
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/projects/g-http-java-client/project-parent/fuzz-targets/pom.xml
+  detection_source: projects/g-http-java-client/project-parent/fuzz-targets/pom.xml
+  last_updated_by: Henry Lin
+  last_updated_on: 2023-03-21 17:36:32.000000000 Z
+- name: com.google.javascript:closure-compiler
+  description: Closure Compiler is a JavaScript optimizing compiler
+  version: '1.0'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/projects/closure-compiler/project-parent/fuzz-targets/pom.xml
+  detection_source: projects/closure-compiler/project-parent/fuzz-targets/pom.xml
+  last_updated_by: Henry Lin
+  last_updated_on: 2023-08-09 23:51:21.000000000 Z
+- name: com.google.protobuf:protobuf-java
+  description: Core Protocol Buffers library
+  version: 4.0.0
+  license: BSD-1-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/projects/opencensus-java/project-parent/fuzz-targets/pom.xml
+  detection_source: projects/opencensus-java/project-parent/fuzz-targets/pom.xml
+  last_updated_by: Henry Lin
+  last_updated_on: 2023-04-11 04:49:14.000000000 Z
+- name: com.googlecode.json-simple:json-simple
+  description: A simple Java toolkit for JSON
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/projects/json-simple/project-parent/fuzz-targets/pom.xml
+  detection_source: projects/json-simple/project-parent/fuzz-targets/pom.xml
+  last_updated_by: mnoth-ci
+  last_updated_on: 2023-03-06 14:23:28.000000000 Z
+- name: com.lmax:disruptor
+  description: Disruptor - Concurrent Programming Framework
+  version: 3.4.4
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/projects/opencensus-java/project-parent/fuzz-targets/pom.xml
+  detection_source: projects/opencensus-java/project-parent/fuzz-targets/pom.xml
+  last_updated_by: Henry Lin
+  last_updated_on: 2023-03-30 05:16:47.000000000 Z
+- name: com.opencsv:opencsv
+  description: A simple library for reading and writing CSV in Java
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/projects/opencsv/project-parent/fuzz-targets/pom.xml
+  detection_source: projects/opencsv/project-parent/fuzz-targets/pom.xml
+  last_updated_by: Henry Lin
+  last_updated_on: 2023-04-14 12:05:45.000000000 Z
+- name: com.squareup.okhttp3:logging-interceptor
+  description: 'Null'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/projects/okhttp/pom.xml
+  detection_source: projects/okhttp/pom.xml
+  last_updated_by: aschaich
+  last_updated_on: 2022-09-30 15:52:05.000000000 Z
+- name: com.squareup.okhttp3:okhttp
+  description: 'Null'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/projects/okhttp/pom.xml
+  detection_source: projects/okhttp/pom.xml
+  last_updated_by: aschaich
+  last_updated_on: 2022-09-30 15:52:05.000000000 Z
+- name: com.thoughtworks.qdox:qdox
+  description: QDox is a high speed, small footprint parser for extracting class/interface/method
+    definitions from source files complete with JavaDoc @tags
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/projects/qdox/project-parent/fuzz-targets/pom.xml
+  detection_source: projects/qdox/project-parent/fuzz-targets/pom.xml
+  last_updated_by: Henry Lin
+  last_updated_on: 2023-06-06 01:07:05.000000000 Z
+- name: com.univocity:univocity-parsers
+  description: Univocity's open source parsers for processing different text formats
+    using a consistent API
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/projects/univocity-parsers/project-parent/fuzz-targets/pom.xml
+  detection_source: projects/univocity-parsers/project-parent/fuzz-targets/pom.xml
+  last_updated_by: Henry Lin
+  last_updated_on: 2023-05-28 01:23:27.000000000 Z
+- name: io.grpc:grpc-context
+  description: 'GRPC: Context'
+  version: 1.54.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/projects/opencensus-java/project-parent/fuzz-targets/pom.xml
+  detection_source: projects/opencensus-java/project-parent/fuzz-targets/pom.xml
+  last_updated_by: Henry Lin
+  last_updated_on: 2023-04-11 04:49:14.000000000 Z
+- name: io.netty:netty-all
+  description: Netty is an asynchronous event-driven network application framework
+    for rapid development of maintainable high performance protocol servers and clients
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/projects/netty/pom.xml
+  detection_source: projects/netty/pom.xml
+  last_updated_by: aschaich
+  last_updated_on: 2022-12-16 22:45:43.000000000 Z
+- name: io.opencensus:opencensus-api
+  description: 'Null'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/projects/opencensus-java/project-parent/fuzz-targets/pom.xml
+  detection_source: projects/opencensus-java/project-parent/fuzz-targets/pom.xml
+  last_updated_by: Henry Lin
+  last_updated_on: 2023-04-11 04:49:14.000000000 Z
+- name: javax.servlet.jsp:jsp-api
+  license: GPL-2.0-with-classpath-exception
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/projects/struts/struts2-fuzzer/webapp/pom.xml
+  detection_source: projects/struts/struts2-fuzzer/webapp/pom.xml
+  last_updated_by: Lukasz Lenart
+  last_updated_on: 2023-07-04 21:09:19.000000000 Z
+- name: javax.servlet:javax.servlet-api
+  description: Java.net - The Source for Java Technology Collaboration
+  version: 3.1.0
+  license: GPL-2.0-with-classpath-exception
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/projects/struts/struts2-fuzzer/fuzzer/pom.xml
+  detection_source: projects/struts/struts2-fuzzer/fuzzer/pom.xml
+  last_updated_by: Lukasz Lenart
+  last_updated_on: 2023-07-04 21:09:19.000000000 Z
+- name: javax.servlet:servlet-api
+  version: '2.5'
+  license: CDDL-1.0,GPL-2.0-with-classpath-exception
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/projects/apache-commons-fileupload/project-parent/fuzz-targets/pom.xml
+  detection_source: projects/apache-commons-fileupload/project-parent/fuzz-targets/pom.xml
+  last_updated_by: Roman Wagner
+  last_updated_on: 2023-03-02 19:08:03.000000000 Z
+- name: net.sf.jopt-simple:jopt-simple
+  description: A Java library for parsing command line options
+  version: '6.0'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/projects/jopt-simple/pom.xml
+  detection_source: projects/jopt-simple/pom.xml
+  last_updated_by: aschaich
+  last_updated_on: 2022-12-21 17:10:08.000000000 Z
+- name: org.apache.avro:avro
+  description: Avro core components
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/projects/avro/project-parent/fuzz-targets/pom.xml
+  detection_source: projects/avro/project-parent/fuzz-targets/pom.xml
+  last_updated_by: Henry Lin
+  last_updated_on: 2023-06-07 00:50:54.000000000 Z
+- name: org.apache.avro:avro-mapred
+  description: An org.apache.hadoop.mapred compatible API for using Avro Serializatin
+    in Hadoop
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/projects/avro/project-parent/fuzz-targets/pom.xml
+  detection_source: projects/avro/project-parent/fuzz-targets/pom.xml
+  last_updated_by: Henry Lin
+  last_updated_on: 2023-06-07 00:50:54.000000000 Z
+- name: org.apache.axis2:axis2-adb
+  description: Axis2 Data Binding module
+  version: 1.8.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/projects/apache-axis2/axis-axis2-java-core-fuzzer/pom.xml
+  detection_source: projects/apache-axis2/axis-axis2-java-core-fuzzer/pom.xml
+  last_updated_by: aschaich
+  last_updated_on: 2023-01-19 21:11:40.000000000 Z
+- name: org.apache.axis2:axis2-kernel
+  description: Core Parts of Axis2
+  version: 1.8.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/projects/apache-axis2/axis-axis2-java-core-fuzzer/pom.xml
+  detection_source: projects/apache-axis2/axis-axis2-java-core-fuzzer/pom.xml
+  last_updated_by: aschaich
+  last_updated_on: 2023-01-19 21:11:40.000000000 Z
+- name: org.apache.axis2:axis2-transport-http
+  description: This inclues all the available transports in Axis2
+  version: 1.8.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/projects/apache-axis2/axis-axis2-java-core-fuzzer/pom.xml
+  detection_source: projects/apache-axis2/axis-axis2-java-core-fuzzer/pom.xml
+  last_updated_by: aschaich
+  last_updated_on: 2023-01-19 21:11:40.000000000 Z
+- name: org.apache.axis2:axis2-transport-local
+  description: This inclues all the available transports in Axis2
+  version: 1.8.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/projects/apache-axis2/axis-axis2-java-core-fuzzer/pom.xml
+  detection_source: projects/apache-axis2/axis-axis2-java-core-fuzzer/pom.xml
+  last_updated_by: aschaich
+  last_updated_on: 2023-01-19 21:11:40.000000000 Z
+- name: org.apache.bcel:bcel
+  description: Apache Commons Bytecode Engineering Library
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/projects/apache-commons-bcel/pom.xml
+  detection_source: projects/apache-commons-bcel/pom.xml
+  last_updated_by: aschaich
+  last_updated_on: 2022-09-28 16:41:38.000000000 Z
+- name: org.apache.calcite:calcite-core
+  description: Core Calcite APIs and engine
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/projects/calcite/project-parent/fuzz-targets/pom.xml
+  detection_source: projects/calcite/project-parent/fuzz-targets/pom.xml
+  last_updated_by: Henry Lin
+  last_updated_on: 2023-06-14 19:18:02.000000000 Z
+- name: org.apache.commons:commons-text
+  description: Apache Commons Text is a library focused on algorithms working on strings
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/projects/apache-commons-text/project-parent/fuzz-targets/pom.xml
+  detection_source: projects/apache-commons-text/project-parent/fuzz-targets/pom.xml
+  last_updated_by: mnoth-ci
+  last_updated_on: 2023-03-06 07:29:50.000000000 Z
+- name: org.apache.cxf:cxf-core
+  description: Apache CXF Core
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/projects/apache-cxf/project-parent/fuzz-targets/pom.xml
+  detection_source: projects/apache-cxf/project-parent/fuzz-targets/pom.xml
+  last_updated_by: Henry Lin
+  last_updated_on: 2023-03-06 07:28:10.000000000 Z
+- name: org.apache.cxf:cxf-rt-frontend-jaxrs
+  description: Apache CXF Runtime JAX-RS Frontend
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/projects/apache-cxf/project-parent/fuzz-targets/pom.xml
+  detection_source: projects/apache-cxf/project-parent/fuzz-targets/pom.xml
+  last_updated_by: Henry Lin
+  last_updated_on: 2023-03-06 07:28:10.000000000 Z
+- name: org.apache.cxf:cxf-rt-rs-client
+  description: Apache CXF JAX-RS Client
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/projects/apache-cxf/project-parent/fuzz-targets/pom.xml
+  detection_source: projects/apache-cxf/project-parent/fuzz-targets/pom.xml
+  last_updated_by: Henry Lin
+  last_updated_on: 2023-03-06 07:28:10.000000000 Z
+- name: org.apache.cxf:cxf-rt-transports-http
+  description: Apache CXF Runtime HTTP Transport
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/projects/apache-cxf/project-parent/fuzz-targets/pom.xml
+  detection_source: projects/apache-cxf/project-parent/fuzz-targets/pom.xml
+  last_updated_by: Henry Lin
+  last_updated_on: 2023-03-06 07:28:10.000000000 Z
+- name: org.apache.hadoop:hadoop-client
+  description: Apache Hadoop Client
+  version: 3.3.5
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/projects/avro/project-parent/fuzz-targets/pom.xml
+  detection_source: projects/avro/project-parent/fuzz-targets/pom.xml
+  last_updated_by: Henry Lin
+  last_updated_on: 2023-06-07 00:50:54.000000000 Z
+- name: org.apache.hadoop:hadoop-common
+  description: Apache Hadoop Common
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/projects/hadoop/project-parent/fuzz-targets/pom.xml
+  detection_source: projects/hadoop/project-parent/fuzz-targets/pom.xml
+  last_updated_by: Henry Lin
+  last_updated_on: 2023-06-13 14:44:39.000000000 Z
+- name: org.apache.hive:hive-common
+  description: Hive is a data warehouse infrastructure built on top of Hadoop see
+    http://wiki.apache.org/hadoop/Hive
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/projects/hive/project-parent/fuzz-targets/pom.xml
+  detection_source: projects/hive/project-parent/fuzz-targets/pom.xml
+  last_updated_by: Henry Lin
+  last_updated_on: 2023-06-27 00:41:17.000000000 Z
+- name: org.apache.hive:hive-serde
+  description: Hive is a data warehouse infrastructure built on top of Hadoop see
+    http://wiki.apache.org/hadoop/Hive
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/projects/hive/project-parent/fuzz-targets/pom.xml
+  detection_source: projects/hive/project-parent/fuzz-targets/pom.xml
+  last_updated_by: Henry Lin
+  last_updated_on: 2023-06-27 00:41:17.000000000 Z
+- name: org.apache.logging.log4j:log4j-core
+  description: The Apache Log4j Implementation
+  version: 2.20.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/projects/apache-poi/pom.xml
+  detection_source: projects/apache-poi/pom.xml
+  last_updated_by: Dominik Stadler
+  last_updated_on: 2023-08-22 20:21:22.000000000 Z
+- name: org.apache.maven:maven-core
+  description: Maven Core classes
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/projects/maven/pom.xml
+  detection_source: projects/maven/pom.xml
+  last_updated_by: aschaich
+  last_updated_on: 2022-09-28 16:39:10.000000000 Z
+- name: org.apache.maven:maven-plugin-api
+  description: The API for plugins - Mojos - development
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/projects/maven/pom.xml
+  detection_source: projects/maven/pom.xml
+  last_updated_by: aschaich
+  last_updated_on: 2022-09-28 16:39:10.000000000 Z
+- name: org.apache.pdfbox:pdfbox
+  description: The Apache PDFBox library is an open source Java tool for working with
+    PDF documents
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/projects/pdfbox/project-parent/fuzz-targets/pom.xml
+  detection_source: projects/pdfbox/project-parent/fuzz-targets/pom.xml
+  last_updated_by: Henry Lin
+  last_updated_on: 2023-04-25 16:22:14.000000000 Z
+- name: org.apache.poi:poi
+  description: Apache POI - Java API To Access Microsoft Format Files
+  version: 5.2.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/projects/apache-poi/pom.xml
+  detection_source: projects/apache-poi/pom.xml
+  last_updated_by: Dominik Stadler
+  last_updated_on: 2023-08-22 20:21:22.000000000 Z
+- name: org.apache.poi:poi-ooxml
+  description: Apache POI - Java API To Access Microsoft Format Files
+  version: 5.2.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/projects/apache-poi/pom.xml
+  detection_source: projects/apache-poi/pom.xml
+  last_updated_by: Dominik Stadler
+  last_updated_on: 2023-08-22 20:21:22.000000000 Z
+- name: org.apache.poi:poi-scratchpad
+  description: Apache POI - Java API To Access Microsoft Format Files
+  version: 5.2.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/projects/apache-poi/pom.xml
+  detection_source: projects/apache-poi/pom.xml
+  last_updated_by: Dominik Stadler
+  last_updated_on: 2023-08-22 20:21:22.000000000 Z
+- name: org.apache.struts:struts2-core
+  description: Apache Struts 2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/projects/struts/struts2-fuzzer/webapp/pom.xml
+  detection_source: projects/struts/struts2-fuzzer/webapp/pom.xml
+  last_updated_by: Lukasz Lenart
+  last_updated_on: 2023-09-04 20:42:14.000000000 Z
+- name: org.aspectj:aspectjrt
+  description: The runtime needed to execute a program using AspectJ
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/projects/aspectj/pom.xml
+  detection_source: projects/aspectj/pom.xml
+  last_updated_by: aschaich
+  last_updated_on: 2022-09-06 06:37:44.000000000 Z
+- name: org.aspectj:aspectjtools
+  description: Tools from the AspectJ project
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/projects/aspectj/pom.xml
+  detection_source: projects/aspectj/pom.xml
+  last_updated_by: aschaich
+  last_updated_on: 2022-09-06 06:37:44.000000000 Z
+- name: org.aspectj:aspectjweaver
+  description: The AspectJ weaver introduces advices to java classes
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/projects/aspectj/pom.xml
+  detection_source: projects/aspectj/pom.xml
+  last_updated_by: aschaich
+  last_updated_on: 2022-09-06 06:37:44.000000000 Z
+- name: org.asynchttpclient:async-http-client
+  description: The Async Http Client
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/projects/async-http-client/project-parent/fuzz-targets/pom.xml
+  detection_source: projects/async-http-client/project-parent/fuzz-targets/pom.xml
+  last_updated_by: Henry Lin
+  last_updated_on: 2023-05-15 15:25:23.000000000 Z
+- name: org.bitbucket.b_c:jose4j
+  description: The jose4j library is an open source implementation of JWS
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/projects/jose4j/project-parent/fuzz-targets/pom.xml
+  detection_source: projects/jose4j/project-parent/fuzz-targets/pom.xml
+  last_updated_by: Henry Lin
+  last_updated_on: 2023-06-13 14:44:08.000000000 Z
+- name: org.eclipse.jetty.http2:http2-server
+  description: The Eclipse Jetty Project
+  license: Apache-2.0,EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/projects/jetty/project-parent/fuzz-targets/pom.xml
+  detection_source: projects/jetty/project-parent/fuzz-targets/pom.xml
+  last_updated_by: Roman Wagner
+  last_updated_on: 2023-02-20 22:36:44.000000000 Z
+- name: org.eclipse.jetty:jetty-client
+  description: The Eclipse Jetty Project
+  license: Apache-2.0,EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/projects/jetty/project-parent/fuzz-targets/pom.xml
+  detection_source: projects/jetty/project-parent/fuzz-targets/pom.xml
+  last_updated_by: Roman Wagner
+  last_updated_on: 2023-02-20 22:36:44.000000000 Z
+- name: org.eclipse.jetty:jetty-http
+  description: The Eclipse Jetty Project
+  license: Apache-2.0,EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/projects/jetty/project-parent/fuzz-targets/pom.xml
+  detection_source: projects/jetty/project-parent/fuzz-targets/pom.xml
+  last_updated_by: Roman Wagner
+  last_updated_on: 2023-02-20 22:36:44.000000000 Z
+- name: org.eclipse.jetty:jetty-io
+  description: The Eclipse Jetty Project
+  license: Apache-2.0,EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/projects/jetty/project-parent/fuzz-targets/pom.xml
+  detection_source: projects/jetty/project-parent/fuzz-targets/pom.xml
+  last_updated_by: Roman Wagner
+  last_updated_on: 2023-02-20 22:36:44.000000000 Z
+- name: org.eclipse.jetty:jetty-jsp
+  description: Eclipse Jetty® - Web Container &amp; Clients - supports HTTP/2
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/projects/struts/struts2-fuzzer/fuzzer/pom.xml
+  detection_source: projects/struts/struts2-fuzzer/fuzzer/pom.xml
+  last_updated_by: Lukasz Lenart
+  last_updated_on: 2023-07-04 21:09:19.000000000 Z
+- name: org.eclipse.jetty:jetty-server
+  description: The core jetty server artifact
+  version: 11.0.14
+  license: Apache-2.0,EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/projects/async-http-client/project-parent/fuzz-targets/pom.xml
+  detection_source: projects/async-http-client/project-parent/fuzz-targets/pom.xml
+  last_updated_by: Henry Lin
+  last_updated_on: 2023-05-15 15:25:23.000000000 Z
+- name: org.eclipse.jetty:jetty-servlet
+  description: Jetty Servlet Container
+  license: Apache-2.0,EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/projects/struts/struts2-fuzzer/fuzzer/pom.xml
+  detection_source: projects/struts/struts2-fuzzer/fuzzer/pom.xml
+  last_updated_by: Lukasz Lenart
+  last_updated_on: 2023-07-04 21:09:19.000000000 Z
+- name: org.eclipse.jetty:jetty-util
+  description: Utility classes for Jetty
+  license: Apache-2.0,EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/projects/jetty/project-parent/fuzz-targets/pom.xml
+  detection_source: projects/jetty/project-parent/fuzz-targets/pom.xml
+  last_updated_by: Roman Wagner
+  last_updated_on: 2023-02-20 22:36:44.000000000 Z
+- name: org.eclipse.jetty:jetty-webapp
+  description: Jetty web application support
+  license: Apache-2.0,EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/projects/struts/struts2-fuzzer/fuzzer/pom.xml
+  detection_source: projects/struts/struts2-fuzzer/fuzzer/pom.xml
+  last_updated_by: Lukasz Lenart
+  last_updated_on: 2023-07-04 21:09:19.000000000 Z
+- name: org.glassfish:javax.el
+  description: Obsolete EL3 fork
+  version: 3.0.1
+  license: GPL-2.0-with-classpath-exception
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/projects/struts/struts2-fuzzer/fuzzer/pom.xml
+  detection_source: projects/struts/struts2-fuzzer/fuzzer/pom.xml
+  last_updated_by: Lukasz Lenart
+  last_updated_on: 2023-07-04 21:09:19.000000000 Z
+- name: org.hsqldb:hsqldb
+  description: HSQLDB - Lightweight 100% Java SQL Database Engine
+  version: 2.7.2
+  license: Zed,TMate
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/projects/calcite/project-parent/fuzz-targets/pom.xml
+  detection_source: projects/calcite/project-parent/fuzz-targets/pom.xml
+  last_updated_by: Henry Lin
+  last_updated_on: 2023-06-14 19:18:02.000000000 Z
+- name: org.jboss.logging:jboss-logging
+  description: The JBoss Logging Framework
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/projects/jboss-logging/project-parent/fuzz-targets/pom.xml
+  detection_source: projects/jboss-logging/project-parent/fuzz-targets/pom.xml
+  last_updated_by: wojtekCodeInt
+  last_updated_on: 2023-02-19 22:46:58.000000000 Z
+- name: org.jboss.xnio:xnio-api
+  description: The API JAR of the XNIO project
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/projects/xnio-api/xnio-fuzzer/pom.xml
+  detection_source: projects/xnio-api/xnio-fuzzer/pom.xml
+  last_updated_by: aschaich
+  last_updated_on: 2023-01-19 21:16:19.000000000 Z
+- name: org.junit.jupiter:junit-jupiter-engine
+  description: Module "junit-jupiter-engine" of JUnit 5
+  version: 5.9.2
+  license: EPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/projects/apache-commons-fileupload/project-parent/fuzz-targets/pom.xml
+  detection_source: projects/apache-commons-fileupload/project-parent/fuzz-targets/pom.xml
+  last_updated_by: Roman Wagner
+  last_updated_on: 2023-03-02 19:08:03.000000000 Z
+- name: org.junit.platform:junit-platform-launcher
+  description: Module "junit-platform-launcher" of JUnit 5
+  version: 1.9.2
+  license: EPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/projects/apache-commons-fileupload/project-parent/fuzz-targets/pom.xml
+  detection_source: projects/apache-commons-fileupload/project-parent/fuzz-targets/pom.xml
+  last_updated_by: Roman Wagner
+  last_updated_on: 2023-03-02 19:08:03.000000000 Z
+- name: org.mozilla:rhino
+  description: Rhino is an open-source implementation of JavaScript written entirely
+    in Java
+  version: 2.7.0
+  license: MPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/projects/rhino/pom.xml
+  detection_source: projects/rhino/pom.xml
+  last_updated_by: aschaich
+  last_updated_on: 2022-12-19 15:48:59.000000000 Z
+- name: org.mvel:mvel2
+  description: MVEL is a powerful expression language for Java-based applications
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/projects/mvel/project-parent/fuzz-targets/pom.xml
+  detection_source: projects/mvel/project-parent/fuzz-targets/pom.xml
+  last_updated_by: Henry Lin
+  last_updated_on: 2023-03-06 14:22:41.000000000 Z
+- name: org.openjdk.jmh:jmh-core
+  description: The jmh is a Java harness for building
+  license: GPL-3.0-only,GPL-2.0-with-classpath-exception
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/projects/jmh/pom.xml
+  detection_source: projects/jmh/pom.xml
+  last_updated_by: aschaich
+  last_updated_on: 2022-09-21 17:46:38.000000000 Z
+- name: org.springframework.amqp:spring-amqp
+  description: Spring AMQP Core
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/projects/spring-amqp/project-parent/fuzz-targets/pom.xml
+  detection_source: projects/spring-amqp/project-parent/fuzz-targets/pom.xml
+  last_updated_by: Henry Lin
+  last_updated_on: 2023-05-24 11:56:27.000000000 Z
+- name: org.springframework.cloud:spring-cloud-config-server
+  description: Spring-cloud-config-server
+  version: 4.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/projects/spring-cloud-config/pom.xml
+  detection_source: projects/spring-cloud-config/pom.xml
+  last_updated_by: aschaich
+  last_updated_on: 2022-10-20 19:05:25.000000000 Z
+- name: org.springframework.cloud:spring-cloud-starter-config
+  description: Spring Cloud Starter
+  version: 4.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/projects/spring-cloud-config/pom.xml
+  detection_source: projects/spring-cloud-config/pom.xml
+  last_updated_by: aschaich
+  last_updated_on: 2022-10-20 19:05:25.000000000 Z
+- name: org.zeroturnaround:zt-zip
+  description: The project is intended to have a small, easy and fast library to process
+    ZIP archives
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/projects/zt-zip/project-parent/fuzz-targets/pom.xml
+  detection_source: projects/zt-zip/project-parent/fuzz-targets/pom.xml
+  last_updated_by: Henry Lin
+  last_updated_on: 2023-05-01 21:57:48.000000000 Z
+- name: grpcio
+  description: HTTP/2-based RPC framework
+  package_url: https://pypi.org/project/grpcio
+  version: 1.49.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19903/default_1d0eb6da6bdd342bb15f73d8f1721516ebacd1dc.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/infra/build/functions/requirements.txt
+  detection_source: infra/build/functions/requirements.txt
+  last_updated_by: Oliver Chang
+  last_updated_on: 2022-09-26 07:46:18.000000000 Z
+  vulnerabilities:
+  - name: gRPC Reachable Assertion issue
+    cve_id: CVE-2023-1428
+    cve_url: https://github.com/advisories/GHSA-6628-q6j9-w8vg
+    detected_date: Jul 7
+    severity: high
+    first_patched: 1.53.0
+  - name: Connection confusion in gRPC
+    cve_id: CVE-2023-32731
+    cve_url: https://github.com/advisories/GHSA-cfgp-2977-2fmm
+    detected_date: Jul 6
+    severity: high
+    first_patched: 1.53.0
+  - name: gRPC connection termination issue
+    cve_id: CVE-2023-32732
+    cve_url: https://github.com/advisories/GHSA-9hxf-ppjv-w6rq
+    detected_date: Jul 7
+    severity: moderate
+    first_patched: 1.53.0
+- name: requests
+  description: Python HTTP for Humans
+  package_url: https://pypi.org/project/requests
+  version: 2.31.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19826/default_d7c684bf2673f008a9f02ac93901229297a22d7e.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/infra/ci/requirements.txt
+  detection_source: infra/ci/requirements.txt
+  last_updated_by: Holly Gong
+  last_updated_on: 2023-06-06 04:35:46.000000000 Z
+  vulnerabilities:
+  - name: Requests `Session` object does not verify requests after making first request
+      with verify=False
+    cve_id: CVE-2024-35195
+    cve_url: https://github.com/advisories/GHSA-9wx4-h78v-vm56
+    detected_date: May 21
+    severity: moderate
+    first_patched: 2.32.0
+- name: Brotli
+  description: Python bindings for the Brotli compression library
+  package_url: https://pypi.org/project/Brotli
+  version: 1.0.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/infra/build/functions/requirements.txt
+  detection_source: infra/build/functions/requirements.txt
+  last_updated_by: Oliver Chang
+  last_updated_on: 2021-01-22 01:45:11.000000000 Z
+- name: PyGithub
+  description: Use the full Github API v3
+  package_url: https://pypi.org/project/PyGithub
+  version: '1.51'
+  license: LGPL-3.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19957/default_f0290ff2792e2af7d13f5c82ed82206842ec288d.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/infra/build/functions/requirements.txt
+  detection_source: infra/build/functions/requirements.txt
+  last_updated_by: kabeer27
+  last_updated_on: 2020-06-25 03:41:04.000000000 Z
+- name: PyYAML
+  description: YAML parser and emitter for Python
+  package_url: https://pypi.org/project/PyYAML
+  version: '6.0'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19829/default_74a61b43bdb9fc0cba2978316b9976f43545029b.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/infra/ci/requirements.txt
+  detection_source: infra/ci/requirements.txt
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-03-24 15:32:37.000000000 Z
+- name: beautifulsoup4
+  description: Screen-scraping library
+  package_url: https://pypi.org/project/beautifulsoup4
+  version: 4.11.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19838/default_85689b353a3a9409328e253ea28d859d29151e0c.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/infra/build/functions/requirements.txt
+  detection_source: infra/build/functions/requirements.txt
+  last_updated_by: DavidKorczynski
+  last_updated_on: 2023-01-31 23:06:09.000000000 Z
+- name: google-api-core
+  description: Google API client core library
+  package_url: https://pypi.org/project/google-api-core
+  version: 1.22.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20073/default_d7fc4eabe57370d13c2a8ad2f7f6bb876c96c66d.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/infra/build/functions/requirements.txt
+  detection_source: infra/build/functions/requirements.txt
+  last_updated_by: Navidem
+  last_updated_on: 2022-08-22 23:54:35.000000000 Z
+- name: google-api-python-client
+  description: Google API Client Library for Python
+  package_url: https://pypi.org/project/google-api-python-client
+  version: 1.9.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19897/default_4343f8bba4f6051641ffca8b4fbe9b099402c84d.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/infra/build/functions/requirements.txt
+  detection_source: infra/build/functions/requirements.txt
+  last_updated_by: Navidem
+  last_updated_on: 2022-08-22 23:54:35.000000000 Z
+- name: google-auth
+  description: Google Authentication Library
+  package_url: https://pypi.org/project/google-auth
+  version: 1.21.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19955/default_1965f66bb5a4d2eb7b31193d7be6d8a9041d02b9.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/infra/build/functions/requirements.txt
+  detection_source: infra/build/functions/requirements.txt
+  last_updated_by: Navidem
+  last_updated_on: 2022-08-22 23:54:35.000000000 Z
+- name: google-cloud-datastore
+  description: Google Cloud Datastore API client library
+  package_url: https://pypi.org/project/google-cloud-datastore
+  version: '2.0'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20224/default_1dd191092405544080932321b11cf946ade027c3.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/infra/build/functions/requirements.txt
+  detection_source: infra/build/functions/requirements.txt
+  last_updated_by: Navidem
+  last_updated_on: 2022-08-22 23:54:35.000000000 Z
+- name: google-cloud-storage
+  description: Google Cloud Storage API client library
+  package_url: https://pypi.org/project/google-cloud-storage
+  version: 1.29.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19996/default_1ae269f6aa26d7008f18ed620309f6ae89bbfa12.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/infra/build/functions/requirements.txt
+  detection_source: infra/build/functions/requirements.txt
+  last_updated_by: Navidem
+  last_updated_on: 2022-08-22 23:54:35.000000000 Z
+- name: hiredis
+  description: Python wrapper for hiredis
+  package_url: https://pypi.org/project/hiredis
+  version: 1.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20297/default_fbb28b4e332d257da7e7f1277d3ce073b5270511.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/infra/build/functions/requirements.txt
+  detection_source: infra/build/functions/requirements.txt
+  last_updated_by: Oliver Chang
+  last_updated_on: 2021-01-22 01:45:11.000000000 Z
+- name: oauth2client
+  description: OAuth 2.0 client library
+  package_url: https://pypi.org/project/oauth2client
+  version: 4.1.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19956/default_1965f66bb5a4d2eb7b31193d7be6d8a9041d02b9.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/infra/build/functions/requirements.txt
+  detection_source: infra/build/functions/requirements.txt
+  last_updated_by: Oliver Chang
+  last_updated_on: 2020-11-20 01:07:09.000000000 Z
+- name: parameterized
+  description: Parameterized testing with any Python test framework
+  package_url: https://pypi.org/project/parameterized
+  version: 0.7.4
+  license: BSD-2-Clause-FreeBSD
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/infra/ci/requirements.txt
+  detection_source: infra/ci/requirements.txt
+  last_updated_by: jonathanmetzman
+  last_updated_on: 2020-05-28 17:14:57.000000000 Z
+- name: pyfakefs
+  description: Pyfakefs implements a fake file system that mocks the Python file system
+    modules
+  package_url: https://pypi.org/project/pyfakefs
+  version: 4.5.6
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/infra/ci/requirements.txt
+  detection_source: infra/ci/requirements.txt
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-03-24 14:09:34.000000000 Z
+- name: pytest-xdist
+  description: Pytest xdist plugin for distributed testing and loop-on-failing modes
+  package_url: https://pypi.org/project/pytest-xdist
+  version: 2.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20307/default_506725603cd9affb22ffa36e3939310b26cbf952.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/infra/ci/requirements.txt
+  detection_source: infra/ci/requirements.txt
+  last_updated_by: jonathanmetzman
+  last_updated_on: 2022-07-07 15:33:10.000000000 Z
+- name: python-dateutil
+  description: Extensions to the standard Python datetime module
+  package_url: https://pypi.org/project/python-dateutil
+  version: 2.8.1
+  license: NRL
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19833/default_58dbe7b4d7ec447b62773209af0f9a31bbabf5bd.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/infra/build/functions/requirements.txt
+  detection_source: infra/build/functions/requirements.txt
+  last_updated_by: Navidem
+  last_updated_on: 2022-08-22 23:54:35.000000000 Z
+- name: yapf
+  description: A formatter for Python code
+  package_url: https://pypi.org/project/yapf
+  version: 0.32.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20399/default_27c957eac1674813a0a457a78f430be9e3c184a7.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/infra/ci/requirements.txt
+  detection_source: infra/ci/requirements.txt
+  last_updated_by: jonathanmetzman
+  last_updated_on: 2022-07-07 15:33:10.000000000 Z
+- name: app-layout
+  description: A set of layout elements for your app
+  package_url: http://bower.io/app-layout
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/bower/image.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/infra/build/status/bower.json
+  detection_source: infra/build/status/bower.json
+  last_updated_by: Ammar Askar
+  last_updated_on: 2019-08-20 23:40:56.000000000 Z
+- name: app-route
+  description: App route
+  package_url: http://bower.io/app-route
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/bower/image.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/infra/build/status/bower.json
+  detection_source: infra/build/status/bower.json
+  last_updated_by: Ammar Askar
+  last_updated_on: 2019-08-20 23:40:56.000000000 Z
+- name: iron-ajax
+  description: Makes it easy to make ajax calls and parse the response
+  package_url: http://bower.io/iron-ajax
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/bower/image.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/infra/build/status/bower.json
+  detection_source: infra/build/status/bower.json
+  last_updated_by: Oliver Chang
+  last_updated_on: 2017-04-18 07:46:54.000000000 Z
+- name: iron-flex-layout
+  description: Provide flexbox-based layouts
+  package_url: http://bower.io/iron-flex-layout
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/bower/image.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/infra/build/status/bower.json
+  detection_source: infra/build/status/bower.json
+  last_updated_by: Oliver Chang
+  last_updated_on: 2017-04-18 07:46:54.000000000 Z
+- name: iron-icons
+  description: A set of icons for use with iron-icon
+  package_url: http://bower.io/iron-icons
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/bower/image.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/infra/build/status/bower.json
+  detection_source: infra/build/status/bower.json
+  last_updated_by: Ammar Askar
+  last_updated_on: 2019-08-20 23:40:56.000000000 Z
+- name: paper-card
+  description: A custom web components card element taking design inspiration from
+    Polymer
+  package_url: http://bower.io/paper-card
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/bower/image.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/infra/build/status/bower.json
+  detection_source: infra/build/status/bower.json
+  last_updated_by: Ammar Askar
+  last_updated_on: 2019-08-20 23:40:56.000000000 Z
+- name: paper-icon-button
+  description: A material design icon button
+  package_url: http://bower.io/paper-icon-button
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/bower/image.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/infra/build/status/bower.json
+  detection_source: infra/build/status/bower.json
+  last_updated_by: Ammar Askar
+  last_updated_on: 2019-08-20 23:40:56.000000000 Z
+- name: paper-item
+  description: A material-design styled list item
+  package_url: http://bower.io/paper-item
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/bower/image.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/infra/build/status/bower.json
+  detection_source: infra/build/status/bower.json
+  last_updated_by: Ammar Askar
+  last_updated_on: 2019-08-20 23:40:56.000000000 Z
+- name: paper-tabs
+  description: Material design tabs
+  package_url: http://bower.io/paper-tabs
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/bower/image.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/infra/build/status/bower.json
+  detection_source: infra/build/status/bower.json
+  last_updated_by: Ammar Askar
+  last_updated_on: 2019-08-20 23:40:56.000000000 Z
+- name: polymer
+  description: Our original Web Component library
+  package_url: http://bower.io/polymer
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/bower/image.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/infra/build/status/bower.json
+  detection_source: infra/build/status/bower.json
+  last_updated_by: Ammar Askar
+  last_updated_on: 2019-08-20 23:40:56.000000000 Z
+- name: web-component-tester
+  description: Web-component-tester makes testing your web components a breeze!
+  package_url: http://bower.io/web-component-tester
+  version: 6.0.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/bower/image.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/infra/build/status/bower.json
+  detection_source: infra/build/status/bower.json
+  last_updated_by: Abhishek Arya
+  last_updated_on: 2018-01-25 16:54:19.000000000 Z
+- name: webcomponentsjs
+  description: Web components polyfill
+  package_url: http://bower.io/webcomponentsjs
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/bower/image.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/infra/build/status/bower.json
+  detection_source: infra/build/status/bower.json
+  last_updated_by: Ammar Askar
+  last_updated_on: 2019-08-20 23:40:56.000000000 Z
+- name: "@types/glob"
+  description: TypeScript definitions for Glob
+  package_url: https://www.npmjs.com/@types/glob
+  version: 8.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16391/default_fc6e1fc17e404d936593b5b901d67abb3386daa3.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/tools/vscode-extension/package-lock.json
+  detection_source: tools/vscode-extension/package.json
+  last_updated_by: DavidKorczynski
+  last_updated_on: 2023-08-28 09:51:45.000000000 Z
+- name: "@types/mocha"
+  description: TypeScript definitions for mocha
+  package_url: https://www.npmjs.com/@types/mocha
+  version: 10.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15893/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/tools/vscode-extension/package-lock.json
+  detection_source: tools/vscode-extension/package.json
+  last_updated_by: DavidKorczynski
+  last_updated_on: 2023-08-28 09:51:45.000000000 Z
+- name: "@types/node"
+  description: TypeScript definitions for Node.js
+  package_url: https://www.npmjs.com/@types/node
+  version: 14.18.54
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15809/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/tools/vscode-extension/package-lock.json
+  detection_source: projects/typescript-example/package.json
+  last_updated_by: Khaled Yakdan
+  last_updated_on: 2023-01-31 16:31:54.000000000 Z
+- name: "@typescript-eslint/eslint-plugin"
+  description: TypeScript plugin for ESLint
+  package_url: https://www.npmjs.com/@typescript-eslint/eslint-plugin
+  version: 5.54.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15982/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/tools/vscode-extension/package-lock.json
+  detection_source: tools/vscode-extension/package.json
+  last_updated_by: DavidKorczynski
+  last_updated_on: 2023-10-11 22:01:38.000000000 Z
+- name: "@typescript-eslint/parser"
+  description: An ESLint custom parser which leverages TypeScript ESTree
+  package_url: https://www.npmjs.com/@typescript-eslint/parser
+  version: 5.54.1
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15980/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/tools/vscode-extension/package-lock.json
+  detection_source: tools/vscode-extension/package.json
+  last_updated_by: DavidKorczynski
+  last_updated_on: 2023-10-11 22:01:38.000000000 Z
+- name: glob
+  description: A little globber
+  package_url: https://www.npmjs.com/glob
+  version: 7.2.3
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15875/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/infra/cifuzz/package-lock.json
+  detection_source: tools/vscode-extension/package.json
+  last_updated_by: DavidKorczynski
+  last_updated_on: 2023-08-28 09:51:45.000000000 Z
+- name: gts
+  description: Google TypeScript Style
+  package_url: https://www.npmjs.com/gts
+  version: 3.1.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17631/default_2b5fe3dc5bfc4e83a84162459ff612ac6febd61a.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/tools/vscode-extension/package-lock.json
+  detection_source: tools/vscode-extension/package.json
+  last_updated_by: DavidKorczynski
+  last_updated_on: 2023-08-28 09:51:45.000000000 Z
+- name: filepath-securejoin
+  description: Proposed filepath.SecureJoin implementation
+  package_url: https://pkg.go.dev/github.com/cyphar/filepath-securejoin
+  version: 0.2.3
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/infra/base-images/base-runner/gocoverage/convertcorpus/go.sum
+  detection_source: infra/base-images/base-runner/gocoverage/convertcorpus/go.mod
+  last_updated_by: AdamKorcz
+  last_updated_on: 2022-11-21 17:55:11.000000000 Z
+- name: pprof
+  description: Pprof is a tool for visualization and analysis of profiling data
+  package_url: https://pkg.go.dev/github.com/google/pprof
+  version: 0.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/infra/base-images/base-runner/gocoverage/go.sum
+  detection_source: infra/base-images/base-runner/gocoverage/go.mod
+  last_updated_by: Catena cyber
+  last_updated_on: 2021-03-08 21:26:19.000000000 Z
+- name: tools
+  description: Go Tools
+  package_url: https://pkg.go.dev/golang.org/x/tools
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/infra/base-images/base-runner/gocoverage/go.sum
+  detection_source: infra/base-images/base-runner/gocoverage/go.mod
+  last_updated_by: Catena cyber
+  last_updated_on: 2021-03-08 21:26:19.000000000 Z
+- name: github-pages
+  description: Bootstrap the GitHub Pages Jekyll environment locally
+  package_url: https://rubygems.org/github-pages
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/docs/Gemfile
+  detection_source: docs/Gemfile
+  last_updated_by: Abhishek Arya
+  last_updated_on: 2019-08-06 20:29:19.000000000 Z
+- name: webrick
+  description: WEBrick is an HTTP server toolkit that can be configured as an HTTPS
+    server
+  package_url: https://rubygems.org/webrick
+  version: 1.7.0
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19444/default_e747a715ce0379afdb68c78657d70e4a512bf5f4.png
+  detection_source_url: https://github.com/minhnguyen311/oss-fuzz/blob/master/docs/Gemfile.lock
+  detection_source: docs/Gemfile
+  last_updated_by: jonathanmetzman
+  last_updated_on: 2022-08-02 00:44:36.000000000 Z
